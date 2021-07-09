@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+*{
+    margin: 0;padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+section{
+    background-image: url(isometropolis.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #3C5186;
+    box-shadow: 2px 2px 15px white ,-2px -2px 15px white;
+}
+
+button{
+position:absolute;
+width: 45px;
+height: 45px;
+border-radius: 50px;
+font-size: 25px;
+color: black;
+border: 0px;
+
+}
+
+#sub{  
+bottom: -17px;
+right: 70px;}
+
+#add{
+bottom: -17px;
+right: 0px;
+left: 136px;}
+
+p{
+    font-size: large;
+    position: absolute;
+    top:37px;
+}
+
+h1{
+    font-size:50px;
+}
+
