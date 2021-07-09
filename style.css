@@ -5,9 +5,21 @@
     color: white;
     font-weight: bold;
 }
+
+nav{
+    height: 5vh;
+    background-color: #6b6b6b;
+    text-align: center; 
+}
+#navtext{
+    text-align: center; 
+    padding-top:2px;
+   
+
+}
 section{
     background-image: url(isometropolis.jpg);
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +57,7 @@ bottom: -17px;
 right: 0px;
 left: 136px;}
 
-p{
+#countername{
     font-size: large;
     position: absolute;
     top:37px;
